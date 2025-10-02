@@ -37,7 +37,12 @@ body{
 
 .wordpress3 img{
     width: 720px;
-    height: 420px;
+    height: 400px;
+}
+
+img{ 
+    border: 5px solid #00FFFF; 
+    border-radius: 1px 10px;
 }
 
 .link:hover{
@@ -272,6 +277,13 @@ form h4 span{
     cursor: pointer;
 }
 
+.mypicture img{
+    width: 430px;
+    height: 576px;
+    margin-left: 15px;
+    justify-content: center;
+}
+
 .ads{
   text-align: center;
 }
@@ -279,6 +291,8 @@ form h4 span{
 .ads img{
   width: 480px;
   height: 360px;
+  border: 0px;
+  border-radius: 1px 1px;
 }
 
 /* Media Queries*/
@@ -290,6 +304,8 @@ form h4 span{
     .mypicture img{
         width: 215px;
         height: 288px;
+        margin-left: 5px;
+        margin-bottom: 10px;
         justify-content: center;
     }
 
@@ -357,6 +373,8 @@ form h4 span{
     .mypicture img{
         width: 90%;
         height: 90%;
+        margin-left: 5px;
+        margin-bottom: 10px;
         justify-content: center;
     }
 
@@ -586,5 +604,6 @@ main{
         font-size: 0.8rem;
     }
 }
+
 
 /* Footer */
